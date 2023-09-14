@@ -1,0 +1,99 @@
+Comandos de Navegação
+
+cd /
+ls -l
+cd Users(max) ou cd Home(linux)
+cd will
+open .
+mkdir Projects
+cd Projects
+clear
+code .
+mkdir exercicios-trybe
+cd exerc
+cd exercicios-trybe
+mkdir dia-1
+cd ..
+cd exercicios-trybe
+mkdir secao-1
+mv dia-1 secao-1
+cd secao-1
+cd dia-1
+
+exercicios:
+
+mkdir unix_tests
+cd unix_tests
+touch trybe.txt
+touch .secreto_trybe.txt
+mkdir backup
+mv trybe.txt backup
+
+mkdir unix_tests_search\ncd unix_tests_search\ncurl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+
+rm countries.txt
+cd ..
+
+rm unix_tests_search
+rmdir unix_tests_search
+
+mkdir unix_tests_search && cd unix_tests_search
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"\n
+
+cd countries.txt
+cat countries.txt
+less countries.txt
+more countries.txt
+
+grep Brazil countries.txt
+
+less countries.txt
+history
+
+less countries.txt
+grep Brazil countries.txt
+
+grep -i brasil countries.txt
+grep -i Brasil countries.txt
+grep Brasil countries.txt
+grep Brazil countries.txt
+grep -i brazil countries.txt
+cd ..
+
+mkdir unix_tests_skills
+cd unix_tests_skills
+touch skills2.txt
+echo Luquinha
+
+echo "Internet" >> skills2.txt
+cat skills2.txt
+cat "Unix" >> skills2.txt
+
+rm skills2.txt
+
+echo "Unix" > skills2.txt
+cat skills2.txt
+echo "Internet" >> skills2.txt
+cat skills2.txt
+echo "bash" >> skills2.txt
+cat skills2.txt
+vim skills2.txt
+nano skills2.txt
+code skills2.txt
+cat skills2.txt | wc -l
+touch top_skills.txt
+rm top_skills.txt
+
+head -n 3 skills2.txt
+echo "internet" >> top_skills.txt
+echo "unix" >> top_skills.txt
+
+cat top_skills.txt
+
+echo "file" >> top_skills.txt
+cat top_skills.txt
+
+sort < top_skills.txt | head -n 3 > novo_arquivo.txt
+cat novo_arquivo.txt
+
+g
